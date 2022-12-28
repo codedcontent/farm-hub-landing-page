@@ -15,9 +15,29 @@ const Connect = () => {
         </p>
 
         <div className="flex flex-col space-y-2">
-          <CustomButton title={"Twitter"} customStyle={"bg-[#1DA1F2]"} />
-          <CustomButton title={"Youtube"} customStyle={"bg-[#C4302B]"} />
-          <CustomButton title={"Instagram"} customStyle={"bg-[#F17503]"} />
+          <a
+            href="https://twitter.com/i_am_meph"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <CustomButton title={"Twitter"} customStyle={"bg-[#1DA1F2]"} />
+          </a>
+
+          <a
+            href="https://www.youtube.com/channel/UCiP_7L3UUyCzCQDiIoHQKnw"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <CustomButton title={"Youtube"} customStyle={"bg-[#C4302B]"} />
+          </a>
+
+          <a
+            href="https://www.instagram.com/i.am.meph/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <CustomButton title={"Instagram"} customStyle={"bg-[#F17503]"} />
+          </a>
         </div>
       </div>
 

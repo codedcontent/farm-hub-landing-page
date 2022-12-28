@@ -25,21 +25,21 @@ function App() {
         signingUp && "overflow-hidden max-h-screen"
       }`}
     >
-      {/* <AppBar /> */}
+      <AppBar signUp={signUp} />
 
       {signingUp && <SignUpOverlay close={close} />}
       <div className="min-h-screen w-screen relative max-w-5xl m-auto">
-        <Introduction signingUp={signingUp} signUp={signUp} />
+        <Introduction signUp={signUp} />
 
-        <About signingUp={signingUp} signUp={signUp} />
+        <About signUp={signUp} />
 
-        <FarmProduce signingUp={signingUp} signUp={signUp} />
+        <FarmProduce signUp={signUp} />
 
-        <Community signingUp={signingUp} signUp={signUp} />
+        <Community signUp={signUp} />
 
         <Testimonials />
 
-        <Connect signingUp={signingUp} signUp={signUp} />
+        <Connect signUp={signUp} />
       </div>
     </div>
   );
