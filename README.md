@@ -1,6 +1,7 @@
 # Farm hub landing page
 
 Site is live at https://farm-hub.netlify.app/
+
 Could not browser through the project? Here's a video preview - https://youtu.be/RaNofmDn1K8
 
 ## Description
