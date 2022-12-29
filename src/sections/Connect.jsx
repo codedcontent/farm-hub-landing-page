@@ -9,9 +9,10 @@ const Connect = () => {
 
       <div className="flex flex-col lg:flex-row lg:px-10 items-center lg:gap-32 gap-6">
         <p className="lg:text-xl flex-1 text-center lg:text-left">
-          Lorem ipsum dolor sit amet consectetur. Vel vel enim malesuada
-          volutpat eros senectus sagittis vel quis. Dictumst mollis ante et
-          facilisis vitae. Nisl id feugiat at consectetur sed luctus urna.
+          We like to keep in touch with our customers and with our community so
+          we've gone on and created accounts on various social media platforms. You can
+          reach out to us there for any inquires and updates from us or send us an email with the
+          button bellow.
         </p>
 
         <div className="flex flex-col space-y-2">

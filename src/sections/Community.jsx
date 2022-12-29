@@ -9,9 +9,9 @@ const Community = ({ signUp }) => {
 
       <div className="flex flex-col-reverse lg:flex-row lg:px-10 items-center lg:gap-32 gap-6">
         <p className="lg:text-xl flex-1 text-center lg:text-left">
-          Lorem ipsum dolor sit amet consectetur. Vel vel enim malesuada
-          volutpat eros senectus sagittis vel quis. Dictumst mollis ante et
-          facilisis vitae. Nisl id feugiat at consectetur sed luctus urna.
+          Farm Hub is a community of like minded people who believe in eating
+          more organic meals and a more affordable means of acquiring this
+          organic meals. We could love to have on as a member of the community.
         </p>
 
         <img

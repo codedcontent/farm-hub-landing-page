@@ -10,10 +10,13 @@ const Testimonials = () => {
       </p>
 
       <div className="flex flex-col-reverse lg:flex-row lg:px-28 items-center lg:gap-32 gap-6">
-        <p className="lg:text-xl flex-1 text-center lg:text-left">
-          Lorem ipsum dolor sit amet consectetur. Vel vel enim malesuada
-          volutpat eros senectus sagittis vel quis. Dictumst mollis ante et
-          facilisis vitae. Nisl id feugiat at consectetur sed luctus urna.
+        <p className="lg:text-xl flex-1 text-center lg:text-right">
+          "I have been a customer of this Farm Hub for a few months now and have
+          always been impressed with the quality and freshness of their produce.
+          The staff is always friendly and helpful, and I appreciate their
+          commitment to sustainable farming practices. I highly recommend this
+          farm to anyone looking for top-notch produce and a great customer
+          experience."
         </p>
 
         <img

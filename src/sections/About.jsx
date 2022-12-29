@@ -9,9 +9,10 @@ const About = ({ signUp }) => {
 
       <div className="flex flex-col-reverse lg:flex-row lg:px-10 items-center lg:gap-32 gap-6">
         <p className="lg:text-xl flex-1 text-center lg:text-left">
-          Lorem ipsum dolor sit amet consectetur. Vel vel enim malesuada
-          volutpat eros senectus sagittis vel quis. Dictumst mollis ante et
-          facilisis vitae. Nisl id feugiat at consectetur sed luctus urna.
+          Farm Hub is a digital platform that provides information on produce
+          currently being sold and the services which we offer. Our goal is to
+          eradicate the need for middle-men when you want to get your farm
+          produce. All can be done from the comfort of your homes.
         </p>
 
         <img
