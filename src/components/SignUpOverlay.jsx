@@ -14,8 +14,8 @@ const SignUpOverlay = ({ close }) => {
   return (
     <div className="absolute top-0 left-0 flex justify-center items-center h-screen w-screen z-50 bg-gray-100/95">
       {signedUp ? (
-        <div className="flex flex-col place-items-center w-3/4 md:w-96 py-4 border-2 border-secondary rounded-md space-y-4">
-          <img src={signUpCompleted} />
+        <div className="flex flex-col place-items-center w-3/4 md:w-96 py-10 border-2 border-secondary rounded-md space-y-4">
+          <img src={signUpCompleted} className="animate-bounce w-36 h-36 object-cover rounded-full" />
 
           <p className="font-bold">Thanks for signing up.</p>
 

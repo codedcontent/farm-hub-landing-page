@@ -28,6 +28,7 @@ function App() {
       <AppBar signUp={signUp} />
 
       {signingUp && <SignUpOverlay close={close} />}
+
       <div className="min-h-screen w-screen relative max-w-5xl m-auto">
         <Introduction signUp={signUp} />
 
